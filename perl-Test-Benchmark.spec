@@ -11,7 +11,6 @@ Group:      Development/Perl
 Summary:    Make sure something really is faster
 Source:     http://www.cpan.org/modules/by-module/Test/%{realname}-%{version}.tar.gz
 Url:        http://search.cpan.org/dist/%{realname}
-BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-devel
 BuildRequires: perl(Benchmark)
 BuildRequires: perl(Test::Builder)
