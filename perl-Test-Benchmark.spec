@@ -1,7 +1,7 @@
 
 %define realname   Test-Benchmark
 %define version    0.004
-%define release    %mkrel 7
+%define release    %mkrel 6
 
 Name:       perl-%{realname}
 Version:    %{version}
@@ -51,7 +51,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%doc META.yml LGPL CHANGES README
+%doc META.yml CHANGES README
 %{_mandir}/man3/*
 %perl_vendorlib/*
 
