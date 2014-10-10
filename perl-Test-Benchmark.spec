@@ -2,7 +2,7 @@
 
 Name:		perl-%{realname}
 Version:	0.004
-Release:    8
+Release:    9
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Make sure something really is faster
