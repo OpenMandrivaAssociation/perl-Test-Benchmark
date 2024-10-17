@@ -7,7 +7,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Make sure something really is faster
 Source:		http://www.cpan.org/modules/by-module/Test/%{realname}-%{version}.tar.gz
-Url:		http://search.cpan.org/dist/%{realname}
+Url:		https://search.cpan.org/dist/%{realname}
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Benchmark)
