@@ -9,6 +9,7 @@ Summary:	Make sure something really is faster
 Source:		http://www.cpan.org/modules/by-module/Test/%{realname}-%{version}.tar.gz
 Url:		https://search.cpan.org/dist/%{realname}
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Benchmark)
 BuildRequires:	perl(Test::Builder)
